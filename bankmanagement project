@@ -531,7 +531,7 @@ void menu(void)
 }
 int main()
 {
-    char pass[10],password[10]="pass";
+    char pass[10],password[10]="PASSWORD";
     int i=0;
     printf("\n\n\n\t\t\t\t   Bank Management System\n\t\t\t\t\t User Login ");
     printf("\n\n\n\n\n\t\t\t\tEnter the password to login:");
@@ -598,7 +598,7 @@ void errorMessage();
 
 int login(void)
 {
-  float number = 1234;
+  float number = 9090;
   int pass;
   printf("\n\n\t\t\tEnter the PIN No:");
   scanf("%d", &pass);
@@ -609,7 +609,6 @@ int login(void)
         for(i=0;i<=6;i++)
         {
             fordelay(100000000);
-            printf(".");
         }
         system("cls");
       mainMenu();
